@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/gh-client-redux/static/css/main.bc0b76f5.css",
-    "main.js": "/gh-client-redux/static/js/main.1e6c7a81.js",
+    "main.js": "/gh-client-redux/static/js/main.cfc402c8.js",
     "static/js/787.c975ceef.chunk.js": "/gh-client-redux/static/js/787.c975ceef.chunk.js",
     "index.html": "/gh-client-redux/index.html",
     "main.bc0b76f5.css.map": "/gh-client-redux/static/css/main.bc0b76f5.css.map",
-    "main.1e6c7a81.js.map": "/gh-client-redux/static/js/main.1e6c7a81.js.map",
+    "main.cfc402c8.js.map": "/gh-client-redux/static/js/main.cfc402c8.js.map",
     "787.c975ceef.chunk.js.map": "/gh-client-redux/static/js/787.c975ceef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bc0b76f5.css",
-    "static/js/main.1e6c7a81.js"
+    "static/js/main.cfc402c8.js"
   ]
 }
