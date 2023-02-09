@@ -13,5 +13,5 @@
 
 .App-footer {
     position: sticky;
-    top: calc( 100vh - 100px );
+    top: calc(100vh - 100px);
 }

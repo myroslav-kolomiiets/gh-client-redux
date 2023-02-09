@@ -2,11 +2,20 @@ import React, {useEffect} from 'react';
 import {connect, useDispatch} from 'react-redux';
 import {fetchDataAsync} from '../Input/inputSlice';
 import {Card} from '../Card/Card';
+import {Info} from '../Info/Info';
 import styles from './CardContainer.module.css';
 import PropTypes from "prop-types";
 
+function Cards({repos}) {
+    return repos.map((repo) => {
+        return <Card key={repo.id} data={repo}/>;
+    });
+}
+
 function CardContainer({repos, totalCount, query, page}) {
     const dispatch = useDispatch();
+
+    const isReposExist = repos.length > 0;
 
     useEffect(() => {
         dispatch(fetchDataAsync({query, page}));
@@ -15,9 +24,9 @@ function CardContainer({repos, totalCount, query, page}) {
     return (
         <div className={styles.CardContainer}>
             {
-                repos.length > 0
-                    ? repos.map((repo) => <Card key={repo.id} data={repo}/>)
-                    : <div className={styles.error}>{'По Вашому запиту не знайдено жодного репозиторія'}</div>}
+                isReposExist
+                    ? <Cards repos={repos}/>
+                    : <Info/>}
         </div>
     );
 }
