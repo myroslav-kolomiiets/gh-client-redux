@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto&display=swap');
+
+.card {
+    display: flex;
+    flex-direction: row;
+    background: #FFFFFF;
+    border-radius: 16px;
+    margin-bottom: 32px;
+    padding: 40px;
+}
+
+.logo {
+    width: 128px;
+    height: 144px;
+    background: linear-gradient(321.69deg, #4481EB 0%, #04BEFE 100%);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.descriptionContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-family: 'DM Serif Display', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    color: #081F32;
+    padding: 0 32px 8px 32px;
+}
+
+.author {
+    font-family: 'Open Sans', sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #A5ADBB;
+    padding: 0 32px 8px 32px;
+}
+
+.language {
+    font-family: 'Open Sans', sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #A5ADBB;
+    padding: 0 32px 8px 32px;
+}
+
+.description {
+    font-family: 'Open Sans', sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #6E798C;
+    text-align: start;
+    padding: 0 32px 8px 32px;
+}
+
+.statWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    min-width: 200px;
+}
+
+.starsWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.starsIcon {
+    width: 40px;
+}
+
+.starsCountWrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.starsCount {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #081F32;
+    margin-right: 10px;
+}
+
+.starsCountLabel {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #6E798C;
+}
+
+.watchersWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.watchersIcon {
+    width: 40px;
+}
+
+.watchersCountWrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.watchersCount {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #081F32;
+    margin-right: 10px;
+}
+
+.watchersCountLabel {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #6E798C;
+}
