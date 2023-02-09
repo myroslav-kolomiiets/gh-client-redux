@@ -6,10 +6,7 @@ import styles from './CardContainer.module.css';
 import PropTypes from "prop-types";
 
 function CardContainer({repos, totalCount, query, page}) {
-    console.log('repos - ' + repos);
     const dispatch = useDispatch();
-    console.log(totalCount)
-    console.log('totalCount')
 
     useEffect(() => {
         dispatch(fetchDataAsync({query, page}));
